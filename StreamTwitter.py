@@ -1,10 +1,10 @@
-__author__ = 'Reza'
+
 import tweepy
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
-auth = tweepy.OAuthHandler('lYbgMGCMDDBwoLwWVTqtWf13S', 'lm1TTF4dcDcAywcMlfTx5bwEr0XmyCCkH2SWnnVgOzOvyaqCnH')
-auth.set_access_token('281509185-FskWAabWsm3ellGqDUYgjgaXv5zXw4HkV43uX3wU', '4JplyZRuSdni2b1FDdaIKeptOpCit45jYzxvlVwKJvYPV')
+auth = tweepy.OAuthHandler('##', '##')
+auth.set_access_token('##', '##')
 class StdOutListener(StreamListener):
 
     def on_data(self, data):
