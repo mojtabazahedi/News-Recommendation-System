@@ -19,7 +19,7 @@ for line in f:
     #print(hashtag)
         url = "https://api.hashtagify.me/1.0/tag/"+str(x).lower()
         headers = {
-        'authorization': "Bearer 2e5b41d596ffb4eecb8d7214db0f50707ea4ff2e",
+        'authorization': "Bearer ####",
         'cache-control': "no-cache"
                     }
         response = requests.request("GET", url, headers=headers).json()
