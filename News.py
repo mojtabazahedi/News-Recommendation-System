@@ -11,8 +11,8 @@ dbcursor = db.cursor()
 #id_data = textfile.read().split(',')
 
 
-auth = tweepy.OAuthHandler('6FRXSvQkWQk1P99u1pDERiIix','MYRbkkYYJ9F6Oc6TRPBWDrPH3xwmDAVBviKoXB31kcnzc3QNPl')
-auth.set_access_token('252507171-VQB2mJ48DiVHNFPZG4JW8wWz9GizvTQbYgn5R8dT','aEjrrpC5ZjBy8Zxyui5ly76G5YzqjNRBxSIDuDQphQGDQ')
+auth = tweepy.OAuthHandler('##','##')
+auth.set_access_token('##-##','##')
 
 api = tweepy.API(auth)
 for tweet in tweepy.Cursor(api.user_timeline,id='washingtonpost' ,include_rts = 'true',include_entities='true').items(100000):
